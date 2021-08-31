@@ -31,6 +31,7 @@ def check_updates():
                 if mb1 is True:
                     # -- Replace the url for your file online with the one below.
                     webbrowser.open_new_tab('https://codeload.github.com/catko6583/Niko-XP/zip/refs/heads/main')
+                    exit()
                 else:
                     pass
             else:
