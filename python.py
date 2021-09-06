@@ -21,6 +21,8 @@ def Nikosoftware():
         Nikosoftwarelogin()
     if e == 'yes':
         Error()
+def opennoviruses():
+    start('antivirus.py')
 def browser():
     start('browse.py')
         
@@ -62,4 +64,6 @@ Open = Button(logs, bg = "blue", text = "This PC", fg = "black", command=openfil
 Open.place(x = 0, y = 0)
 notepad = Button(logs, bg = "yellow", text = "Niko EDIT", fg = "orange", command=editfiles)
 notepad.place(x = 125, y = 0)
+Opene = Button(logs, bg = "yellow", text = "Niko antivirus", fg = "orange", command=opennoviruses)
+Opene.place(x = 0, y = 10)
 logs.mainloop()
