@@ -173,7 +173,6 @@ class TextEditor:
   def exit(self,*args):
     op = messagebox.askyesno("WARNING","Your Unsaved Data May be Lost!!")
     if op>0:
-      os.startfile("Home page")
       self.root.destroy()
     else:
       return
@@ -218,7 +217,7 @@ class TextEditor:
       messagebox.showerror("Exception",e)
   # Defining About Funtion
   def infoabout(self):
-    messagebox.showinfo("About Text Editor","Niko-EDIT is a simple text editor included with the Niko-OS")
+    messagebox.showinfo("About Text Editor","Niko-EDIT is a simple text editor included with the Niko XP")
   # Defining shortcuts Funtion
   def shortcuts(self):
     # Binding Ctrl+n to newfile funtion
