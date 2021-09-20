@@ -29,9 +29,9 @@ def browser():
 def Nikosoftwarelogin():
     start('nikosoftwarelogin.py')
 def openfiles():
-    start('file.py')
+    start('file.pyw')
 def editfiles():
-    start('edit.py')
+    start('edit.pyw')
 
 from tkinter import *
 from tkinter import messagebox as mbox
@@ -65,5 +65,5 @@ Open.place(x = 0, y = 0)
 notepad = Button(logs, bg = "yellow", text = "Niko EDIT", fg = "orange", command=editfiles)
 notepad.place(x = 125, y = 0)
 Opene = Button(logs, bg = "yellow", text = "Niko antivirus", fg = "orange", command=opennoviruses)
-Opene.place(x = 0, y = 10)
+Opene.place(x = 0, y = 20)
 logs.mainloop()
