@@ -69,7 +69,7 @@ def cmd():
         from os import startfile as start
         from sys import exit as close
         messagebox.showinfo("LOGIN SUCCESSFULLY", "         WELCOME        ")
-        start('python.py')
+        start('python.pyw')
         close()
     if e1.get()=='' or e2.get()=='':
         messagebox.showerror("LOGIN FAILED","        ALL FIELDS REQUIRED        ")
