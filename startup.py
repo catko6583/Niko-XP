@@ -1,4 +1,5 @@
-__version__ = '1.0'
+with open('thisversion.txt') as f:
+    __version__ = f.read()
 __versionindev__ = ''
 end_ofsupport = False
 from time import sleep as wait
