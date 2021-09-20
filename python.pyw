@@ -10,7 +10,7 @@ def shutdown():
         f.write('no')
     sys.exit('Shutdowned os')
 def logout():
-    os.startfile('login.py')
+    os.startfile('login.pyw')
     sys.exit('Logout')
 def Nikosoftware():
     f = open('nikosoftware')
@@ -22,9 +22,9 @@ def Nikosoftware():
     if e == 'yes':
         Error()
 def opennoviruses():
-    start('antivirus.py')
+    start('antivirus.pyw')
 def browser():
-    start('browse.py')
+    start('browse.pyw')
         
 def Nikosoftwarelogin():
     start('nikosoftwarelogin.py')
